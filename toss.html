@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coin Toss Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Coin Toss</h1>
+
+    <div id="coin-area">
+      <img class="coin" id="coin1" src="heads.png" alt="coin">
+      
+    </div>
+
+    <p>Total Tosses: <span id="count">0</span></p>
+
+    <button onclick="tossCoin()">Toss Coin</button>
+    <button onclick="resetGame()">Reset</button>
+
+    <audio id="toss-sound" src="toss.mp3" preload="auto"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
