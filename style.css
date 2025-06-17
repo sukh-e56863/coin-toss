@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #d2f5f0, #b2dafa);
+  background: linear-gradient(to right, hot blue, navy red);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
